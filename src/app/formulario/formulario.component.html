@@ -1,0 +1,37 @@
+
+<ion-card [formGroup]="formularioPrincipal">
+  <ion-card-header color="warning" class="ion-margin-bottom ion-align-items-center">
+    <ion-card-title>Añade un Alumno</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-grid>
+      <ion-row class="ion-align-items-center">
+        <ion-col size="2" vertical="center" horizontal="center" >
+          <ion-img src="../../assets/images/cursos.png"></ion-img>
+        </ion-col>
+        <ion-col size="10">
+          <ion-input label="Curso" labelPlacement="floating" fill="outline" placeholder="Enter Text" formControlName="curso"></ion-input>
+        </ion-col>
+      </ion-row>
+    <br>
+      <ion-row class="ion-align-items-center">
+        <ion-col size="2" vertical="center" horizontal="center" >
+          <ion-img src="../../assets/images/calificacion.png" ></ion-img>
+        </ion-col>
+        <ion-col size="10" vertical="center" horizontal="center" >
+          <ion-input label="Puntos" labelPlacement="floating" fill="outline" placeholder="Enter Text" formControlName="puntos"></ion-input>
+        </ion-col>
+
+      </ion-row>
+    
+    </ion-grid>
+    <br>
+    <br>
+    <br>
+    <ion-fab slot="end" vertical="bottom" horizontal="center">
+      <ion-fab-button color="success">
+        <ion-icon name="add"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+  </ion-card-content>
+</ion-card>
