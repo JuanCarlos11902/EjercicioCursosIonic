@@ -1,5 +1,7 @@
 {
   "name": "EjercicioCursosIonic",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

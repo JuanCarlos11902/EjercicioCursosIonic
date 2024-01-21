@@ -6,6 +6,7 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 import { FormularioComponent } from '../formulario/formulario.component';
+import { ListaAlumnosComponent } from '../lista-alumnos/lista-alumnos.component';
 
 
 
@@ -18,6 +19,6 @@ import { FormularioComponent } from '../formulario/formulario.component';
     ReactiveFormsModule
     
   ],
-  declarations: [HomePage,FormularioComponent]
+  declarations: [HomePage,FormularioComponent,ListaAlumnosComponent]
 })
 export class HomePageModule {}
